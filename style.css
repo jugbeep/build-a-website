@@ -9,6 +9,7 @@ body {
 	width: 100%;
 	height: 100%;
 	margin: 0px;
+	background-color: #FFF5D7
 }
 .splash {
 	position: static;
@@ -18,7 +19,7 @@ body {
 	left: 0;
 	max-width: 100%;
 	width: 100%;
-	height: 100%;
+	height: auto;
 	background-image: url("../build-a-website/assets/tetons.jpg");
 	background-size: cover;
 }
@@ -36,6 +37,8 @@ body {
 	font-size: 1.5em;
 	font-family: 'Ubuntu', sans-serif;
 	font-weight: 700;
+	margin-top: .75em;
+	margin-bottom: 1em;
 
 }
 .projects {
@@ -44,24 +47,38 @@ body {
 	border: 10px solid black;
 }
 .navbar {
-	background-color: red;
-
+	height: 75px;
+	background-color: #778fa1;
 }
 .container {
 	text-align: center;
 	max-width: 100%;
 }
 .aboutLeft {
+	background-color: #FFE3D7;
 	float: left;
-	margin-left: 20%;
+	margin: .75em 5px 0px 20%;
+	padding: .75em;
+	color: black;
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 1em;
+	border-radius: 10px;
 }
 .portfolioRight {
+	background-color: #FFE3D7;
 	float: right;
-	margin-right: 20%;
+	margin: .75em 20% 0px 5px;
+	padding: .75em;
+	color: black;
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 1em;
+	border-radius: 10px;
 }
 h1 {
 	text-align: center;
     display: block;
+    margin-top: 2em;
+    
    
 }
 .imgGal {
@@ -72,6 +89,23 @@ h1 {
 }
 ul {
 	margin: 20px;
+}
+hr {
+	display: block;
+}
+p {
+	text-align: center;
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 1em;
+	    display: block;
+    	-webkit-margin-before: 0em;
+    	-webkit-margin-after: 0em;
+    	-webkit-margin-start: 0px;
+    	-column-rulewebkit-margin-end: 0px;
+}
+.social {
+	height: 100px;
+	width: 100px;
 }
 
 
